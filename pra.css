@@ -1,0 +1,280 @@
+body{
+    
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    display: grid;
+    
+}
+
+    body{
+        width: 100%;
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+   
+h1{ 
+    color:aliceblue;
+    text-align: center;
+    height: 30vh;
+     width: auto;
+    border: none;
+
+    
+   
+    background-image: url("bg1.jpg");
+    background-size: cover;
+    
+}
+
+@media (max-width:480px){
+    h1{
+        width: 100%;
+    }
+}
+@media (max-width:508px) {
+    h3{
+        padding: 10px;
+    }
+}
+.container{
+    margin-top: -20px;
+}
+nav{
+    display: grid;
+    place-items: center;
+    background-color: palegreen;
+    margin-top: 0;
+   
+    
+}
+@media (max-width:480px){
+    nav{
+        width: 100%;
+    }
+}
+nav ul {
+    list-style-type: none;
+    
+    
+}
+@media (max-width:480px){
+    nav ul{
+        width: 100%;
+    }
+}
+
+nav ul a{
+    display: inline-block;
+    padding: 20px;
+    
+
+}
+@media (max-width:480px){
+    nav ul a{
+        width: 100%;
+    }
+}
+
+ul:hover{
+    color: rgb(62, 204, 204);
+}
+@media (max-width:480px){
+    ul:hover{
+        width: 100%;
+    }
+}
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    width: 100%;
+    grid-column-gap:none;
+    grid-row-gap:5%;
+    grid-auto-rows: max-content;
+    cursor: pointer;
+    padding: 5px;
+    padding-left: 20px;
+    height: 80%;
+    margin-top: 20px;
+    
+}
+@media (max-width:480px){
+    .items{
+        width: 100%;
+    }
+}
+.items img{
+    animation: forwards;
+    animation-duration:2ms;
+    transition: 0.2s ease;
+    
+
+}
+@media (max-width:480px){
+    .items img{
+        width: 100%;
+    }
+}
+.items img:hover{
+    transform:scale(1.04) ;
+}
+@media (max-width:480px){
+    .items img:hover{
+        width: 100%;
+    }
+}
+section{
+    border: 2px rgb(255, 21, 0) solid;
+    border-radius: 5px;
+    width: 70%;
+    padding: 5px;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: small;
+    text-align: center;
+   
+   
+}
+@media (max-width:480px){
+    section{
+        width: 100%;
+    }
+}
+
+button{
+    cursor: pointer;
+    border-color: darkred;
+    margin: 5px;
+    background-color:rgb(167, 240, 22);
+    border-radius: 5px;
+    text-align: center;
+    
+}
+@media (max-width:480px){
+    button{
+        width: 100%;
+    }
+}
+
+button:hover{
+     background-color:lightskyblue;
+     
+}
+@media (max-width:480px){
+    button:hover{
+        width: 100%;
+    }
+}
+
+
+.footer{
+   background-color: rgb(14, 14, 50);
+ 
+  padding: 5px;
+  margin-top: 30px;
+  border: none;
+  height: max-content ;
+  background-color: rgb(82, 82, 227);
+ 
+  
+}
+@media (max-width:480px){
+    .foote{
+        width: 100%;
+    }
+}
+    
+
+section1{
+    text-align: left;
+    background-color: blue;
+   color: black;
+    
+
+}
+section2{
+    text-align: center;
+   
+}
+section3{
+    text-align: right;
+    
+   
+}
+
+.last{
+    background-color: black;
+   box-sizing: content-box;
+   
+}
+@media (max-width:480px){
+    .last{
+        width: 100%;
+    }
+}
+.last p{
+    color: antiquewhite;
+}
+
+@media (max-width:480px){
+    .last p{
+        width: 100%;
+    }
+}
+
+.last h4{
+    color: aliceblue;
+    text-align: right;
+    font-size: 30px;
+}
+
+@media (max-width:480px){
+    .last h4{
+        width: 100%;
+    }
+}
+.last img{
+    height: 25px;
+    grid-gap: 10px;
+    align-items: center;
+}
+@media (max-width:480px){
+    .last img{
+        width: 100%;
+    }
+}
+
+
+
+
+#icons{
+   justify-items: center;
+}
+@media (max-width:480px){
+    #icons{
+        width: 100%;
+    }
+}
+
+  
+
+
+  
+  
+       
+@media (min-width:1200px){
+
+}
+
+@media (max-width:990px){
+
+}
+@media (max-width:480px){
+    .container{
+        width: 100%;
+    }
+}
+    
